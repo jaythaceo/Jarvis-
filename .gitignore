@@ -1,22 +1,25 @@
+# Generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
 
 # C extensions
 *.so
 
 # Distribution / packaging
 .Python
-bin/
-include/
 env/
 build/
 develop-eggs/
 dist/
 downloads/
 eggs/
-.eggs/
 lib/
 lib64/
 parts/
@@ -40,23 +43,16 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .coverage
-.coverage.*
 .cache
 nosetests.xml
 coverage.xml
-*,cover
-.hypothesis/
 
 # Translations
 *.mo
 *.pot
 
-# Django stuff:
+# Django stuff/Logfiles
 *.log
-local_settings.py
-
-# Flask instance folder
-instance/
 
 # Sphinx documentation
 docs/_build/
@@ -64,8 +60,8 @@ docs/_build/
 # PyBuilder
 target/
 
-# IPython Notebook
-.ipynb_checkpoints
+# Coverage reports for a specific version
+.coverage
 
-# pyenv
-.python-version
+# SublimeLinter config file
+.sublimelinterrc
